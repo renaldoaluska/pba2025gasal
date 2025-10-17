@@ -15,7 +15,7 @@ Repositori ini berisi proyek analisis sentimen terhadap ulasan pengguna aplikasi
 
 ### 📂 Struktur Repositori
 
-Repositori ini diatur ke dalam beberapa folder berdasarkan tahapan pengerjaan:
+Repositori ini diatur ke dalam beberapa file berdasarkan tahapan pengerjaan:
 
 * `1_TransJogja_Scraping-Praproses-Labeling-BoW-TFIDF.ipynb`: Python code scraping, praproses, labeling, BoW, dan TF-IDF.
 * `2_PBA_EDA_Sentiment.ipynb`: Python code untuk EDA dan analisis sentimen lanjutan.
