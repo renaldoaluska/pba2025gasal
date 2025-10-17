@@ -1,4 +1,4 @@
-# Analisis Sentimen Layanan Trans Jogja Menggunakan Data Twitter
+# Analisis Sentimen Layanan Trans Jogja Menggunakan Rating Google Play
 
 Repositori ini berisi rangkaian analisis untuk tugas mata kuliah **Pengolahan Bahasa Alami (PBA)**. Proyek ini bertujuan untuk melakukan analisis sentimen terhadap opini publik mengenai layanan bus Trans Jogja berdasarkan data yang dikumpulkan dari platform media sosial Twitter.
 
