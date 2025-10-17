@@ -39,7 +39,7 @@ Berikut adalah penjelasan dan tautan pratinjau (*preview*) untuk setiap Jupyter 
 
 ---
 
-###  workflow Alur Kerja Proyek
+### ⏳ Alur Kerja Proyek
 
 Proyek ini dibagi menjadi dua tahap utama yang saling berurutan:
 
