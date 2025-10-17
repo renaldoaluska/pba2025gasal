@@ -39,26 +39,26 @@ Berikut adalah penjelasan dan tautan pratinjau (*preview*) untuk setiap Jupyter 
       Analisis mencakup distribusi label sentimen, panjang teks, frekuensi kata, *word cloud*, bigram, serta identifikasi kata unik per label.  
       Selain itu, digunakan representasi *TF-IDF* dan reduksi dimensi *PCA* untuk menampilkan kluster sentimen dalam ruang 2D, diakhiri dengan rekap *insight* ringkas sebagai penutup.
 
-
 ---
 
 ### ⏳ Alur Kerja Proyek
 
-Proyek ini dibagi menjadi dua tahap utama yang saling berurutan:
+Proyek ini terdiri dari dua tahap utama yang dilakukan secara berurutan:
 
-1.  **Data Collection & Preprocessing**:
-    * Mengambil 1000 ulasan terbaru dari aplikasi TransJogja di Google Play Store.
-    * Membersihkan data teks dari karakter yang tidak relevan.
-    * Memberi label sentimen (**Positif**, **Negatif**, **Netral**) berdasarkan skor rating.
-    * Menyimpan data yang sudah bersih untuk digunakan pada tahap analisis.
+1. **Pengumpulan dan Persiapan Data (Data Collection & Preprocessing)**  
+   * Mengambil ulasan pengguna aplikasi **TransJogja** dari Google Play Store menggunakan teknik *web scraping*.  
+   * Melakukan pembersihan teks (*text cleaning*) seperti *case folding*, penghapusan tanda baca, angka, dan emoji.  
+   * Memberi label sentimen (**Positif**, **Negatif**, **Netral**) berdasarkan skor rating ulasan.  
+   * Mengubah teks menjadi representasi numerik menggunakan metode **Bag-of-Words (BoW)** dan **TF-IDF**.  
+   * Menyimpan dataset bersih untuk digunakan pada tahap analisis berikutnya.
 
-2. **Exploratory Data Analysis (EDA)**:  
-   * Memuat data hasil pembersihan dari tahap sebelumnya.  
-   * Menganalisis distribusi label sentimen untuk melihat proporsi tiap kategori (positif, netral, negatif).  
-   * Mengeksplorasi panjang teks, frekuensi kata, dan hubungan antara panjang teks dengan label sentimen.  
-   * Mengidentifikasi kata dan frasa paling sering muncul melalui visualisasi *word cloud* dan analisis *N-gram* (bigram & trigram).  
-   * Menggunakan *TF-IDF* dan *PCA* untuk menampilkan kluster antar sentimen secara visual.  
-   * Menarik kesimpulan dan *insight* dari pola-pola yang ditemukan pada data ulasan pengguna TransJogja.
+2. **Analisis Data Eksploratif (Exploratory Data Analysis / EDA) dan Visualisasi**  
+   * Memuat dataset bersih hasil tahap pertama.  
+   * Melakukan eksplorasi terhadap distribusi label sentimen dan karakteristik teks (panjang teks, jumlah kata, dsb.).  
+   * Menampilkan *word cloud* dan analisis *N-gram* (bigram & trigram) untuk menemukan kata dan frasa populer di tiap kategori sentimen.  
+   * Mengidentifikasi kata unik khas tiap label serta hubungan antara panjang teks dan label sentimen.  
+   * Menerapkan representasi **TF-IDF** dan reduksi dimensi **PCA** untuk visualisasi kluster sentimen dalam ruang 2D.  
+   * Menyimpulkan hasil EDA melalui rekap *insight* sebagai penutup analisis.
 
 ---
 
