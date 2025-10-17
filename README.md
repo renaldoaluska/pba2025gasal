@@ -7,7 +7,7 @@ Repositori ini berisi proyek analisis sentimen terhadap ulasan pengguna aplikasi
 ### 👨‍💻 Data Diri
 * **Nama:** Alfa Renaldo Aluska
 * **NRP:** 5026221144
-* **Mata Kuliah:** Pengolahan Bahasa Alami (A)
+* **Mata Kuliah:** Pengolahan Bahasa Alami (A) Gasal 2025
 * **Program Studi:** S1 Sistem Informasi
 * **Institusi:** Institut Teknologi Sepuluh Nopember (ITS)
 
